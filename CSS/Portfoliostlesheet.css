@@ -1,0 +1,140 @@
+
+
+
+
+/*--generic components--*/
+body {
+background-color: #41464D;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size: 20px;
+font-weight: 200;
+color: #ffffff;
+}
+
+/*--header components--*/
+
+header {
+background-color: #ffffff;
+background-size: cover;
+background-position: center;
+height: 15vh;
+background-attachment: fixed;
+margin-top: 5px;
+}
+
+.Logo {
+height: 100px;
+width: auto;
+float: left;
+margin-top: 10px;
+}
+
+
+.main-nav {
+float: right;
+margin-top: 30px;
+margin-left: 20px;
+margin-right: 30px;
+}
+
+
+/*--Main body components--*/
+
+
+.Hero {
+margin-top: 60px;
+background-color: #ffffff;
+background-position: center;
+height: 80vh;
+text-align: center;
+}
+
+.header1 {
+text-align: center;
+margin-top: 150px;
+color: #ffffff;
+}
+
+.maincontent {
+text-align: center;
+margin-top: 400px;
+margin-bottom: 10px;
+border width: 10px;
+border color: #41464D;
+}
+
+.main1body{
+margin-top: auto;
+margin-left: 10px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.main1img{
+height: 400px;
+}
+
+.main2body {
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+border bottom: #41464D;
+text-align: center;
+
+}
+
+
+
+/*--Button components--*/
+
+.btn1:
+input[type=submit] {
+margin-top: 100px;
+font-size: 25px;
+}
+
+
+/*--Footer components--*/
+.footermain {
+font color: #ffffff;
+text-align: center;
+}
+
+
+/*--About page components--*/
+
+.About_Top {
+text-align: center;
+background-color: #ffffff;
+}
+
+.About_pic {
+margin-left: 200px;
+margin-right: 20px;
+margin-top: 5px;	
+}
+
+
+.About_Middle {
+text-align: center;
+background-color: #ffffff;
+}
+
+
+.About_Body_Story {
+float: left;
+text-align: justify;
+width: 600px;
+margin-top: 10px;
+margin-left: 200px;
+}
+
+.About_Body_Skills {
+float: right;
+margin-right: 200px;
+}
+
+/*--Contact page components--*/
+
+.Contact_Form {
+text-align: center;
+margin-top: 450px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;	
+}
