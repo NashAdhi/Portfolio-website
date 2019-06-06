@@ -11,6 +11,26 @@ font-weight: 200;
 color: #ffffff;
 }
 
+a {
+color: #5533ff;
+text-decoration: none;
+}
+
+a:visited{
+color: #5533ff;
+}
+
+a:active{
+color: #994c30;
+}
+
+
+a:hover,
+a:focus {
+color: #cc6540;
+text-decoration: underline;
+}
+
 /*--header components--*/
 
 header {
@@ -55,12 +75,12 @@ margin-top: 150px;
 color: #ffffff;
 }
 
-.maincontent {
+.maincontent{
 text-align: center;
 margin-top: 400px;
 margin-bottom: 10px;
-border width: 10px;
-border color: #41464D;
+border-color: #41464D;
+border-radius: 10px;
 }
 
 .main1body{
@@ -75,26 +95,40 @@ height: 400px;
 
 .main2body {
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-border bottom: #41464D;
-text-align: center;
-
 }
 
 
 
 /*--Button components--*/
 
-.btn1:
-input[type=submit] {
-margin-top: 100px;
-font-size: 25px;
+.btnhero {
+margin-top: 20px;    
+border-radius: 20 px;
+padding: 8px 12px;
+border: 2px solid #ffffff;
+}
+
+
+
+.btn1 {
+color:#5533ff;
+padding: 8px 12px;
+border-radius: 20px;
+transition: .2s opacity;
+border: 2px solid #ffffff;
+}
+
+.btn1:hover {
+opacity: 0.8;
+text-decoration: none;
 }
 
 
 /*--Footer components--*/
 .footermain {
-font color: #ffffff;
+color: #ffffff;
 text-align: center;
+margin-top: 700px;
 }
 
 
@@ -102,7 +136,7 @@ text-align: center;
 
 .About_Top {
 text-align: center;
-background-color: #ffffff;
+background-color: #000000;
 }
 
 .About_pic {
@@ -114,21 +148,26 @@ margin-top: 5px;
 
 .About_Middle {
 text-align: center;
-background-color: #ffffff;
+background-color: #000000;
+margin-top: 50px;
+
 }
 
 
 .About_Body_Story {
 float: left;
-text-align: justify;
-width: 600px;
-margin-top: 10px;
-margin-left: 200px;
+text-align: left;
+width: 800px;
+margin-top: 15px;
+margin-left: 600px;
+font-size: 100%;
 }
 
 .About_Body_Skills {
 float: right;
-margin-right: 200px;
+margin-top: 10px;
+margin-right: 600px;
+font-size: 100%;
 }
 
 /*--Contact page components--*/
