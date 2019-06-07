@@ -1,18 +1,14 @@
-
-
-
-
 /*--generic components--*/
+
 body {
 background-color: #41464D;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size: 20px;
-font-weight: 200;
 color: #ffffff;
 }
 
 a {
-color: #5533ff;
+color: #000000;
 text-decoration: none;
 }
 
@@ -33,13 +29,20 @@ text-decoration: underline;
 
 /*--header components--*/
 
+.container {
+
+
+}
+
 header {
 background-color: #ffffff;
+padding: 10px;
+margin: auto;
 background-size: cover;
 background-position: center;
 height: 15vh;
 background-attachment: fixed;
-margin-top: 5px;
+border-bottom: 3px solid #dadada;
 }
 
 .Logo {
@@ -60,18 +63,19 @@ margin-right: 30px;
 
 /*--Main body components--*/
 
-
 .Hero {
 margin-top: 60px;
 background-color: #ffffff;
 background-position: center;
 height: 80vh;
 text-align: center;
+opacity: 0.3;
 }
 
 .header1 {
 text-align: center;
 margin-top: 150px;
+display: block;
 color: #ffffff;
 }
 
@@ -97,8 +101,6 @@ height: 400px;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-
-
 /*--Button components--*/
 
 .btnhero {
@@ -107,7 +109,6 @@ border-radius: 20 px;
 padding: 8px 12px;
 border: 2px solid #ffffff;
 }
-
 
 
 .btn1 {
@@ -125,10 +126,12 @@ text-decoration: none;
 
 
 /*--Footer components--*/
+
 .footermain {
 color: #ffffff;
 text-align: center;
 margin-top: 700px;
+position: relative;
 }
 
 
