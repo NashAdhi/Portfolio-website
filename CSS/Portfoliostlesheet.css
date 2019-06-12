@@ -1,5 +1,16 @@
 /*--generic components--*/
 
+* {
+box-sizing: border-box;
+
+}
+
+.container {
+margin: auto;
+
+
+}
+
 body {
 background-color: #41464D;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -13,7 +24,7 @@ text-decoration: none;
 }
 
 a:visited{
-color: #5533ff;
+color: #000000;
 }
 
 a:active{
@@ -29,47 +40,41 @@ text-decoration: underline;
 
 /*--header components--*/
 
-.container {
-
-
-}
-
-header {
+.Header {
 background-color: #ffffff;
 padding: 10px;
-margin: auto;
+text-align: center;
 background-size: cover;
 background-position: center;
-height: 15vh;
+height: 20vh;
 background-attachment: fixed;
 border-bottom: 3px solid #dadada;
 }
 
 .Logo {
-height: 100px;
-width: auto;
-float: left;
-margin-top: 10px;
+height: 150px;
+margin-top: 30px;
 }
 
 
 .main-nav {
-float: right;
-margin-top: 30px;
-margin-left: 20px;
-margin-right: 30px;
+text-align: center;
+margin-top: 20px;
+margin-right: 40px;
+font-weight: bolder;
+font-size: 120%;
 }
 
 
 /*--Main body components--*/
 
-.Hero {
+#Hero {
 margin-top: 60px;
 background-color: #ffffff;
 background-position: center;
 height: 80vh;
 text-align: center;
-opacity: 0.3;
+opacity: 0.2;
 }
 
 .header1 {
@@ -81,31 +86,54 @@ color: #ffffff;
 
 .maincontent{
 text-align: center;
-margin-top: 400px;
-margin-bottom: 10px;
+margin-top: 350px;
+margin-bottom: 20px;
 border-color: #41464D;
 border-radius: 10px;
 }
 
-.main1body{
+.workarea1 {
+}
+
+.main1body {
 margin-top: auto;
 margin-left: 10px;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-.main1img{
+.main1img {
 height: 400px;
+}
+
+.main1text {
+}
+
+.workarea2 {
 }
 
 .main2body {
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+.main2text {
+}
+
+.workarea3 {
+}
+
+.main3body {
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.main3text {
+}
+
+
 /*--Button components--*/
 
 .btnhero {
 margin-top: 20px;    
-border-radius: 20 px;
+border-radius: 20px;
 padding: 8px 12px;
 border: 2px solid #ffffff;
 }
@@ -176,7 +204,10 @@ font-size: 100%;
 /*--Contact page components--*/
 
 .Contact_Form {
-text-align: center;
-margin-top: 450px;
+text-align: left;
+padding-bottom: 20px;
+margin-top: 350px;
+border-style: groove;
+border-width: medium;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;	
 }
