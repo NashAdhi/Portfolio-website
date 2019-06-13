@@ -72,28 +72,63 @@ font-size: 120%;
 margin-top: 60px;
 background-color: #ffffff;
 background-position: center;
-height: 80vh;
+height: 40vh;
 text-align: center;
-opacity: 0.2;
+opacity: 0.4;
 }
 
 .header1 {
 text-align: center;
-margin-top: 150px;
+margin-top: 450px;
 display: block;
 color: #ffffff;
 }
 
 .maincontent{
 text-align: center;
-margin-top: 350px;
+margin-top: 500px;
 margin-bottom: 20px;
 border-color: #41464D;
 border-radius: 10px;
+font-size: 120%;
 }
 
 .workarea1 {
+float: left;
+margin-left: 140px;
 }
+
+
+
+/*---Animation of the SVG images---*/
+.animate {
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/*--shadow effects on the SVG images--*/
+
+.main1img {
+height: 300px;
+box-shadow: 0 15px 20px rgba(180, 180, 180, 0.3);
+}
+
+/*--My areas of Work related styling--*/
 
 .main1body {
 margin-top: auto;
@@ -101,14 +136,12 @@ margin-left: 10px;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-.main1img {
-height: 400px;
-}
-
 .main1text {
 }
 
 .workarea2 {
+float: left;
+margin-left: 485px;
 }
 
 .main2body {
@@ -119,6 +152,8 @@ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .workarea3 {
+float: right;
+margin-right: 140px;    
 }
 
 .main3body {
@@ -132,22 +167,54 @@ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 /*--Button components--*/
 
 .btnhero {
-margin-top: 20px;    
-border-radius: 20px;
-padding: 8px 12px;
+margin-top: 30px;    
+color: #000000;
 border: 2px solid #ffffff;
+background-color: transparent;
+border-radius: 10px;
+padding: 10px 20px;
 }
 
+.btnhero:hover {
+opacity: 0.8;
+text-decoration: none;
+}
 
 .btn1 {
-color:#5533ff;
-padding: 8px 12px;
+margin-top: 2px;
 border-radius: 20px;
-transition: .2s opacity;
+padding: 8px 12px;
 border: 2px solid #ffffff;
+transition: .6s opacity;
 }
 
 .btn1:hover {
+opacity: 0.8;
+text-decoration: none;
+}
+
+.btn2 {
+margin-top: 2px;
+border-radius: 20px;
+padding: 8px 12px;
+border: 2px solid #ffffff;
+transition: .2s opacity;
+}
+
+.btn2:hover {
+opacity: 0.8;
+text-decoration: none;
+}
+
+.btn3 {
+margin-top: 2px;
+border-radius: 20px;
+padding: 8px 12px;
+border: 2px solid #ffffff;
+transition: .2s opacity;
+}
+
+.btn3:hover {
 opacity: 0.8;
 text-decoration: none;
 }
@@ -158,7 +225,7 @@ text-decoration: none;
 .footermain {
 color: #ffffff;
 text-align: center;
-margin-top: 700px;
+margin-top: 800px;
 position: relative;
 }
 
@@ -204,10 +271,10 @@ font-size: 100%;
 /*--Contact page components--*/
 
 .Contact_Form {
-text-align: left;
+text-align: center;
 padding-bottom: 20px;
 margin-top: 350px;
-border-style: groove;
+border-style: dashed;
 border-width: medium;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;	
 }
