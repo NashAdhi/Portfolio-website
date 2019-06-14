@@ -3,9 +3,9 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="../Portfolio-website/CSS/Portfoliostlesheet.css">
+		<link rel="stylesheet" type="text/css" href="../Portfolio-website/CSS/Portfoliostlesheet.css">	
 		<link rel="stylesheet" type="text/css" href="../Portfolio-website/CSS/animate.css"
 		<meta name="author" content="Nash">
 		<meta name="Portfoliohome.html" content="Design & Developer portfolio - Nash Adhikarla">
@@ -13,89 +13,78 @@
 	</head>
 	<body>
 		<header> 
-			<div class="container">
-				<nav>
-					<div class="Header">
-					<img src="../Portfolio-website/Images/NashLogo.svg" target="Index.html" alt="Nash Logo" class="Logo">
-					<ul class="main-nav">
-					<a href="Index.html">Work</a>
-					<a href="About.html">About</a>
-					<a href="Contact.html">Contact</a>
-					</ul>	
-					</div>    
-			   </nav>
-			</div>
-					
-		</header>
-		<main>
-			<div id="Hero"> 
-				<picture>
-					<source src="../Portfolio-website/Images/Portfolio pic2.png">	
-					<img src="Images/Portfolio pic2.png" alt="Nash image">
-					</picture>
 			
-					
-			</div>
+			<nav>
+				<div class="row">
+					<img src="../Portfolio-website/Images/NashLogo.svg" target="Index.html" alt="Nash Logo" class="Logo">
+						<ul class="main-nav">
+							<li><a href="Index.html">Work</a></li>
+							<li><a href="About.html">About</a></li>
+							<li><a href="Contact.html">Contact</a></li>
+						</ul>	
+			     </div>
+			</nav>
+			
+		</header>
+		<!--class created for Hero Image!-->
+			<main>
+				<div id="Hero"> 
+					<picture>
+						<source src="../Portfolio-website/Images/Portfolio pic2.png">	
+						<img src="Images/Portfolio pic2.png" alt="Nash image">
+					</picture>
+			    </div>
+		<!--class created for Text above Hero Image!-->
 			<div class="header1">
 				<h1>I am Nash Adhikarla</h1><br>
 						<span><b>UX Designer & Front-end Developer</b></span>
 						<p>UX designer with combined 10+ years experience in start-up, Banking & Finance with keen focus on solving user centric issues.</p><br>
 				<div>
 					<button type="button">
-			 		<a href="About.html" class="btnhero">More about Me</a>
+			 		<a href="../About.html" class="btnhero">More about Me</a>
 					</button>
 				</div>
 			</div>		
+		<!--class created for section below Hero Image!-->
+		   <section class="work_areas">
+			<h2>My work areas<br> &mdash;</h2>
 					
-		   <div class="maincontent">
-						<h2>My work areas</h2>
-				
-				<div class="workarea1">			
-					    <div class="animatedmain1body">
-						<img src="../Portfolio-website/Images/ui near white.svg" alt="UXsection image" class="main1img">
-					</div>
-					 	
-				<div class="main1text">
-						<h3>UX & Visual Design</h3><br>
-						<p>Focus on creating efficient user flows</p>
-					 </div>	
-					 <button type="button">
-						<a href="http://www.behance.net/nashadhikarla" class="btn1">Browse Projects</a>
-					</button>
-				</div>
-				<div class="workarea2">
-					    <div class="main2body">
-						<img src="../Portfolio-website/Images/front near white.svg" alt="UXsection image" class="main1img">
+					<div class="row">
+						
+						<div class="col s4">
+						   <img src="../Portfolio-website/Images/ui near white.svg" alt="UXsection image" class="main1img">
+						   <h3>UX & Visual Design</h3><br>
+							 <p>Focus on creating efficient user flows</p>
+							    <button type="button">
+								<a href="http://www.behance.net/nashadhikarla" class="btn1">Browse Projects</a>
+							    </button>
 						</div>
-						<div class="main2text">
-						<h3>Front end Development</h3><br>
-						<p>Work showcasing my front end skillset</p>
+			         <div class="row">
+					    <div class="col s4">
+						   <img src="../Portfolio-website/Images/front near white.svg" alt="UXsection image" class="main1img">
+						   <h3>Front end Development</h3><br>
+						     <p>Work showcasing my front end skillset</p>
+						       <button type="button">
+						       <a href="https://github.com/NashAdhi/Portfolio-website.git" class="btn2">Browse Projects</a>
+							   </button>
 						</div>
-						<button type="button">
-						<a href="https://github.com/NashAdhi/Portfolio-website.git" class="btn2">Browse Projects</a>
-						</button>
-				</div>
-				<div class="workarea3">
-						<div class="main3body">
+					<div class="row">
+						<div class="col s4">
 						<img src="../Portfolio-website/Images/camera near white.svg" alt="UXsection image" class="main1img">
-						</div>
-						<div class="main3text">
 						<h3>Photography</h3><br>    
-						<p>Emphasis on Visual story telling</p>
-						</div>	
-						<button type="button">
-						<a href="Http://www.500px.com/vianash" class="btn3">Browse Pics</a>
+						 <p>Emphasis on Visual story telling</p>
+						    <button type="button">
+						    <a href="Http://www.500px.com/vianash" class="btn3">Browse Pics</a>
 						</button>
+					 </div>	
 				</div>
-				</div>
-					
-			</div>
-					
-			
-	  </main>
-	  <footer>
-	  	<div class="footermain">
-	  		<h2>Get in Touch</h2>
+		   </section>
+		</main>
+		  
+		
+		<footer>
+	  		<div class="footermain">
+	  		<h2>Get in Touch<br> &mdash;</h2>
 			<p>Found the projects & work interesting!<br>
 				Just connect via skype @<a href="www.skype.com"><b>sustainnagesh</b></a> or
 			<a href="mailto:nageshwarr@gmail.com"><b>Email</b></a> me</p><br>

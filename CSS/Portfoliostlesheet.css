@@ -1,13 +1,14 @@
 /*--generic components--*/
 
 * {
-box-sizing: border-box;
-
+box-sizing: #bababa;
 }
 
-.container {
-margin: auto;
-
+header {
+background-color: whitesmoke;
+height: 10vh;
+background-attachment: fixed;
+border-bottom-color: antiquewhite;
 
 }
 
@@ -28,7 +29,7 @@ color: #000000;
 }
 
 a:active{
-color: #994c30;
+color: #9c8880;
 }
 
 
@@ -38,59 +39,64 @@ color: #cc6540;
 text-decoration: underline;
 }
 
+section {
+padding: 40px 0;
+text-align: center;
+margin-top: 300px;
+}
+
+nav {
+background-color: antiquewhite;
+
+}
+
 /*--header components--*/
 
-.Header {
+.row {
 background-color: #ffffff;
-padding: 10px;
-text-align: center;
-background-size: cover;
-background-position: center;
-height: 20vh;
-background-attachment: fixed;
-border-bottom: 3px solid #dadada;
 }
+
 
 .Logo {
 height: 150px;
-margin-top: 30px;
+margin-top: 5px;
+float: left;
 }
 
 
 .main-nav {
-text-align: center;
-margin-top: 20px;
-margin-right: 40px;
+float: right;
+margin-top: 35px;
 font-weight: bolder;
-font-size: 120%;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 
 /*--Main body components--*/
 
+
 #Hero {
-margin-top: 60px;
-background-color: #ffffff;
+margin-top: 5px;
 background-position: center;
-height: 40vh;
+height: 35vh;
 text-align: center;
 opacity: 0.4;
 }
 
 .header1 {
 text-align: center;
-margin-top: 450px;
+margin-top: 550px;
 display: block;
 color: #ffffff;
 }
 
-.maincontent{
-text-align: center;
-margin-top: 500px;
-margin-bottom: 20px;
-border-color: #41464D;
-border-radius: 10px;
-font-size: 120%;
+.work_areas {
+margin-top: 400px;  
+margin-left: auto;
+}
+
+.col s4{
+margin: auto;
 }
 
 .workarea1 {
@@ -98,33 +104,10 @@ float: left;
 margin-left: 140px;
 }
 
-
-
-/*---Animation of the SVG images---*/
-.animate {
--webkit-animation-duration: 1s;
-animation-duration: 1s;
-}
-
-@-webkit-keyframes bounce {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
 /*--shadow effects on the SVG images--*/
 
 .main1img {
-height: 300px;
+height: 150px;
 box-shadow: 0 15px 20px rgba(180, 180, 180, 0.3);
 }
 
@@ -136,9 +119,6 @@ margin-left: 10px;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-.main1text {
-}
-
 .workarea2 {
 float: left;
 margin-left: 485px;
@@ -146,9 +126,6 @@ margin-left: 485px;
 
 .main2body {
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-
-.main2text {
 }
 
 .workarea3 {
@@ -159,10 +136,6 @@ margin-right: 140px;
 .main3body {
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
-
-.main3text {
-}
-
 
 /*--Button components--*/
 
@@ -225,7 +198,7 @@ text-decoration: none;
 .footermain {
 color: #ffffff;
 text-align: center;
-margin-top: 800px;
+margin-top: 500px;
 position: relative;
 }
 
@@ -277,4 +250,26 @@ margin-top: 350px;
 border-style: dashed;
 border-width: medium;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;	
+}
+
+
+/*---Animation of the SVG images---*/
+.animate {
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
 }
