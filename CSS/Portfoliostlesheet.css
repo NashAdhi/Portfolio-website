@@ -137,58 +137,7 @@ margin-top: 50px;
 
 /*--Button components--*/
 
-.btnhero {
-margin-top: 30px;    
-color: #000000;
-border: 2px solid #ffffff;
-background-color: transparent;
-border-radius: 10px;
-padding: 10px 20px;
-}
 
-.btnhero:hover {
-opacity: 0.8;
-text-decoration: none;
-}
-
-.btn1 {
-margin-top: 2px;
-border-radius: 20px;
-padding: 8px 12px;
-border: 2px solid #ffffff;
-transition: .6s opacity;
-}
-
-.btn1:hover {
-opacity: 0.8;
-text-decoration: none;
-}
-
-.btn2 {
-margin-top: 2px;
-border-radius: 20px;
-padding: 8px 12px;
-border: 2px solid #ffffff;
-transition: .2s opacity;
-}
-
-.btn2:hover {
-opacity: 0.8;
-text-decoration: none;
-}
-
-.btn3 {
-margin-top: 2px;
-border-radius: 20px;
-padding: 8px 12px;
-border: 2px solid #ffffff;
-transition: .2s opacity;
-}
-
-.btn3:hover {
-opacity: 0.8;
-text-decoration: none;
-}
 
 .cvimg {
 padding: auto;
@@ -197,31 +146,11 @@ margin-bottom: 25px;
 }
 
 
-.btncv {
-border-radius: 20px;
-padding: 8px 12px;
-border: 2px solid #ffffff;
-transition: .2s opacity;
-}
-
-.btncontact {
-border-radius: 20px;
-margin-top: 10px;
-margin-left: 600px;
-padding: 8px 12px;
-border: 2px solid #ffffff;
-transition: .2s opacity;
-;  
-}
 
 
-.Contact_Form {  
-color: #ffffff;  
-padding-bottom: 20px;
-margin-top: 350px;
-border-width: medium;
-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;	
-}
+
+
+
 
 
 
@@ -291,6 +220,8 @@ margin-top: 50px;
 margin-top: 100px;
 margin-left: 150px;
 }
+
+
 
 .navbar-brand {
 max-width: 30px;
