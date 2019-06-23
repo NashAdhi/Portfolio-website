@@ -4,77 +4,92 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Compiled and minified CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-		<!-- Compiled and minified JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../Portfolio-website/CSS/Portfoliostlesheet.css">	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="../Portfolio-website/CSS/Portfoliostlesheet.css">
 		<meta name="author" content="Nash">
-		<meta name="Portfoliomain.html" content="Design & Developer portfolio - Nash Adhikarla">
-		<title>Designer & Developer Portfolio - Nash Adhikarla</title>
+		<meta name="Portfoliohome.html" content="Design & Developer portfolio of Nash">
+		<title>Portfolio:Nash</title>
 	</head>
 	<body>
-		<nav class="navigation">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			<div class="container">
-			<img src="../Portfolio-website/Images/NashLogo.svg" target="Index.html" alt="Nash Logo" class="logo">
-				<ul class="top_nav">
-					<li><a href="Index.html">Home</a></li>
-					<li><a href="About.html">About</a></li>
-					<li><a href="Contact.html">Contact</a></li>
-				</ul>
+				<a class="navbar-brand" href="#"><img src="../Portfolio-website/Images/NashLogo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-item nav-link active" href="Index.html">Home <span
+									class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="About.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="Contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 		<!--Hero image to be changed to a carousel-->
 			<main>
-				<div id="Hero"> 
-					<picture>
-						<img src="Images/Portfolio pic2.png" alt="Nash image">
-					</picture>
+				<div class="jumbotron"> 
+					<h1>I am Nash Adhikarla</h1><br>
+					<span><b>UX Designer & Front-end Developer</b></span>
+					<p>UX designer with combined 10+ years experience in start-up, Banking & Finance with keen focus on solving user centric
+						issues.</p><br>
+
+					<button class="btn btn-lg btn-info">Latest Projects</button>
+						<a href="About.html" class="btn btn-lg btn-info">More about Me</a>
+					</button>
 			    </div>
 		<!--class created for Text above Hero Image!-->
-			<div class="header1">
-				<h1>I am Nash Adhikarla</h1><br>
-						<span><b>UX Designer & Front-end Developer</b></span>
-						<p>UX designer with combined 10+ years experience in start-up, Banking & Finance with keen focus on solving user centric issues.</p><br>
-				<div>
-					<button type="button">
-			 		<a href="../About.html" class="btnhero">More about Me</a>
-					</button>
-				</div>
-			</div>		
+			
+					
+				
+					
 		<!--Will card system work or grid to be checked!-->
 		   <section class="work_areas">
 			<h2>My work areas<br> &mdash;</h2>
 					
-					<div class="container">
-						
-						<div class="col s4a">
-						   <img src="../Portfolio-website/Images/ui near white.svg" alt="UXsection image" class="main1img">
-						   <h3>UX & Visual Design</h3><br>
-							 <p>Focus on creating efficient user flows</p>
-							    <button type="button">
-								<a href="http://www.behance.net/nashadhikarla" class="btn1">Browse Projects</a>
-							    </button>
+					
+						<div class="container">
+							<div class="row">
+								<div class="maintext">
+									<h3 class="display-.2 text-center">UX & Visual Design</h3><br>
+										<button type="button">
+										<a href="http://www.behance.net/nashadhikarla" class="btn btn-sm mt-1 btn-info">Browse Projects</a>
+										</button>
+								</div>
+							</div>   
+
+							<div class="row">
+								<div class="maintext">
+									<h3 class="display-.2 text-center">UX & Visual Design</h3><br>
+									<button type="button">
+										<a href="http://www.behance.net/nashadhikarla" class="btn btn-sm mt-1 btn-info">Browse Projects</a>
+									</button>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="maintext">
+									<h3 class="display-.2 text-center">UX & Visual Design</h3><br>
+									<button type="button">
+										<a href="http://www.behance.net/nashadhikarla" class="btn btn-sm mt-1 btn-info">Browse Projects</a>
+									</button>
+								</div>
+							</div>
+						   
 						</div>
 			        
-					    <div class="col s4b">
-						   <img src="../Portfolio-website/Images/front near white.svg" alt="UXsection image" class="main1img">
-						   <h3>Front end Development</h3><br>
-						     <p>Work showcasing my front end skillset</p>
-						       <button type="button">
-						       <a href="https://github.com/NashAdhi/Portfolio-website.git" class="btn2">Browse Projects</a>
-							   </button>
-						</div>
-					
-						<div class="col s4c">
-						<img src="../Portfolio-website/Images/camera near white.svg" alt="UXsection image" class="main1img">
-						<h3>Photography</h3><br>    
-						 <p>Emphasis on Visual story telling</p>
-						    <button type="button">
-						    <a href="Http://www.500px.com/vianash" class="btn3">Browse Pics</a>
-						</button>
-					 </div>	
-				</div>
+					    
+				
 		   </section>
 		</main>
 		  
