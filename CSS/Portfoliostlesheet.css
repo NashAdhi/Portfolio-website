@@ -31,8 +31,11 @@
 
 /*--generic components--*/
 
-
-
+.jumbotron {
+background:url('../Images/portfolio_Bkg_1.png');
+margin-top:1em;
+background-position: 100%;
+}
 
 
 body {
@@ -81,9 +84,10 @@ text-align: center;
 }
 
 .maintext {
-background-image: url('../Images/portfolio_Bkg_1.png');
+background-image: url('../Images/Rectangle\ 1.svg');
 width: 100%;
-height: 100%;
+
+
 }
 
 .workarea1 {
@@ -142,7 +146,10 @@ margin-bottom: 25px;
 }
 
 
+.card-img {
+width:20%;
 
+}
 
 
 
