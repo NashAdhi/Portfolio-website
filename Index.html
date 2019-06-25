@@ -12,7 +12,7 @@
 		<title>Portfolio:Nash</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 			<div class="container">
 				<a class="navbar-brand" href="#"><img src="../Portfolio-website/Images/NashLogo.png"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -20,7 +20,7 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		
+					
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
 							<a class="nav-item nav-link active" href="Index.html">Home <span
@@ -39,20 +39,23 @@
 		<!--Hero image to be changed to a carousel-->
 			<main>
 				<div class="jumbotron"> 
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6 btn-holder">
-									</div>
-									<div class="col-sm-6">		
-										<h1>I am Nash Adhikarla</h1><br>
-										<span><b>UX Designer & Front-end Developer</b></span>
-										<p>UX designer with combined 10+ years experience in start-up, Banking & Finance with keen focus on solving user centric
+					
+							<video id="video-background" preload muted autoplay loop>
+								<source src="../Portfolio-website/HTML/water.mp4" type="video/mp4">
+								<source src="../Portfolio-website/HTML/water.mp4" type="video/ogg">
+							</video>
+							<div class="container mt-4 text-left">
+								<div class="row">
+										<h1>I am Nash Adhikarla</h1>
+										<p>UX designer & Front-end Developer with combined 12+ years experience in start-up, Banking & Finance with keen focus on solving user centric
 										issues.</p><br>
-
-										<button class="btn btn-lg btn-info">Latest Projects</button>
-										<a href="About.html" class="btn btn-lg btn-info">More about Me</a>
-										</button>
 									
+										<button>
+										<a href="https://vianash.com/ux-graphic-work" class="btn btn-lg btn-info">Know More</a>
+										</button>
+										
+									
+									</div>
 									</div>
 								</div>
 			      			</div>
@@ -63,69 +66,85 @@
 				
 					
 		<!--Will card system work or grid to be checked!-->
-		   <section class="work_areas">
+		   <section>
+
+		   <div class="work_areas">
 			<h2>My work areas<br> &mdash;</h2>
-					
-					<div class="card bg-primary text-white">
-						<img src="../Portfolio-website/Images/ui.svg" class="card-img" alt="...">
-							<div class="card-img-overlay">
-								<h5 class="card-title">UX & Visual Design</h5>
-									<p class="card-text">Browse for UX, UI Projects</p>
-										<button class="btn btn-lg btn-info">
-										<a href="http://www.behance.net/nashadhikarla">Browse Projects</a>
+		   </div>		
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 center-block">
+								<div class="card-body bg-transparent mt-4 ml-5">
+									<img src="../Portfolio-website/Images/ux.svg" class="card-img" alt="...">
+								</div>
+									<div class="col-sm-12 btn-holder text-white ml-4">
+										<h5 class="card-title text-center">UX & Visual Design</h5>
+									<p class="card-text text-center">Browse for UX, UI Projects</p>
+										<button class="btn btn-lg btn-info center-block m-*-auto">
+										<a href="http://www.behance.net/nashadhikarla">Know More</a>
 										</button>
+									</div>
+								</div>
 							</div>
-					</div>
+						</div>
 					
 							
-						
-						
-							<div class="card bg-primary text-white mt-4">
-								<img src="../Portfolio-website/Images/ux.svg" class="card-img" alt="...">
-								<div class="card-img-overlay">
-									<h5 class="card-title">Front end development</h5>
-									<p class="card-text">Browse for UX, UI Projects</p>
-									<button class="btn btn-lg btn-info">
-									<a href="https://github.com/NashAdhi">Browse Projects</a>
+					<div class="container">
+						<div class="row">
+							<div class="col col-sm-12 center-block">
+							<div class="card-body bg-transparent mt-2 ml-5">
+								<img src="../Portfolio-website/Images/front.svg" class="card-img" alt="...">
+							</div>	
+								<div class="col text-white ml-4">
+									<h5 class="card-title text-center">Front end development</h5>
+									<p class="card-text text-center">Browse for UX, UI Projects</p>
+									<button class="btn btn-lg btn-info center-block m-*-auto">
+									<a href="https://github.com/NashAdhi">Know More</a>
 									</button>
 								</div>
-							</div>
-							
-						
-						
-							<div class="card bg-primary text-white mt-4">
-								<img src="../Portfolio-website/Images/camera near white.svg" class="card-img" alt="...">
-								<div class="card-img-overlay">
-									<h5 class="card-title">Photography</h5>
-									<p class="card-text">Browse for UX, UI Projects</p>
-									<button class="btn btn-lg btn-info">
-										<a href="https://500px.com/vianash">Browse Projects</a>
-									</button>
+									</div>	
 								</div>
-							</div>
-					</div>
-				</div>	
-			        
-					    
-				
-		   </section>
+						</div>
+						
+					<div class="container">
+						<div class="row">
+							<div class="col col-sm-12">
+							<div class="card-body bg-transparent mt-4 ml-5">
+								<img src="../Portfolio-website/Images/camera.svg" class="card-img" alt="...">
+							</div>	
+								<div class="col text-white ml-4">
+									<h5 class="card-title text-center">Photography</h5>
+									<p class="card-text text-center">Nature/People/Macro</p>
+									<button class="btn btn-lg btn-info center-block m-*-auto">
+										<a href="https://500px.com/vianash">Know More</a>
+									</button>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+			</section>
 		</main>
 		  
 		
-		<footer>
-	  		<div class="footermain">
-	  		<h2>Get in Touch<br> &mdash;</h2>
-			<p>Found the projects & work interesting!<br>
-				Just connect via skype @<a href="www.skype.com"><b>sustainnagesh</b></a> or
-			<a href="mailto:nageshwarr@gmail.com"><b>Email</b></a> me</p><br>
-			<a href="https://www.twitter.com/Nash23205956"><img src="Images/twitter-logo-button.png" alt="twitter logo" target="_blank"></a>
-			<a href="https://www.linkedin.com/in/nageshwaradhikarla/"><img src="Images/linkedin.png" alt="Linkedin logo" target="_blank"></a>
-			<a href="https://www.behance.net/nashadhikarla"><img src="Images/behance-logo.png" alt="Behance logo" target="_blank"></a>
-			<a href="https://500px.com/vianash"><img src="Images/500px-logo.png" alt="500px logo" target="_blank"></a>
-
-			<p>&copy Nash Adhikarla 2019</p>
-		</div>
-	</footer>
+			<footer>
+				<div class="card text-center bg-transparent mt-4">
+					<div class="card-body">
+						<h5 class="card-title">Found the projects & work interesting! </h5>
+						<p class="card-text">Just connect via skype @<a href="www.skype.com"><b>sustainnagesh</b></a> or
+						<a href="mailto:nageshwarr@gmail.com"><b>Email</b></a> me.</p><br></p>
+						<a href="https://www.twitter.com/Nash23205956"><img src="Images/twitter-logo-button.png" alt="twitter logo"
+								target="_blank"></a>
+						<a href="https://www.linkedin.com/in/nageshwaradhikarla/"><img src="Images/linkedin.png" alt="Linkedin logo"
+								target="_blank"></a>
+						<a href="https://www.behance.net/nashadhikarla"><img src="Images/behance-logo.png" alt="Behance logo"
+								target="_blank"></a>
+						<a href="https://500px.com/vianash"><img src="Images/500px-logo.png" alt="500px logo" target="_blank"></a>
+						<p>&copy Nash Adhikarla 2019</p>
+					</div>
+				</div>
+				
+		</footer>
   </body>
 </html>
 	
