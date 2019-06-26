@@ -1,28 +1,28 @@
 
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+ Extra sm devices  portrait phones, less than 576pX
+ No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
+sm devices (landscape phones, 576px and up)
 
 @media (min-width: 576px) {
   
 }
 
-// Medium devices (tablets, 768px and up)
+Medium devices (tablets, 768px and up)
 
 @media (min-width: 768px) { 
 
 }
 
-// Large devices (desktops, 992px and up)
+Large devices (desktops, 992px and up)
 
 @media (min-width: 992px) { 
 
 
 }
 
-// Extra large devices (large desktops, 1200px and up)
+Extra large devices (large desktops, 1200px and up)
 
 @media (min-width: 1200px) { 
   
@@ -91,76 +91,15 @@ color: #cc6540;
 .logo {
 width: 150px;
 height: 150px;
-
 }
 
 /*--Main body components--*/
 
-
-
-
 .work_areas {
-margin-top: 100px;
+margin-top: 120px;
 text-align: center;
 color: #ffffff;
-
 }
-
-.maintext {
-
-width: 100%;
-
-
-}
-
-.workarea1 {
-float: left;
-margin-left: 140px;
-}
-
-/*--shadow effects on the SVG images--*/
-
-.main1img {
-height: 150px;
-box-shadow: 0 15px 20px rgba(180, 180, 180, 0.3);
-}
-
-/*--My areas of Work related styling--*/
-
-.main1body {
-margin-top: auto;
-margin-left: 10px;
-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-
-.workarea2 {
-float: left;
-margin-left: 485px;
-}
-
-.main2body {
-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-
-.workarea3 {
-float: right;
-margin-right: 140px;    
-}
-
-.main3body {
-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-
-.About_Middle {
-color: #ffffff;
-text-align: center;
-margin-top: 50px;
-}
-
-
-/*--Button components--*/
-
-
 
 .cvimg {
 padding: auto;
@@ -170,27 +109,25 @@ margin-bottom: 25px;
 
 .container {
 display: flex;
-
 }
 .card-img {
-width:120%;
-
-
+width:80%;
 }
 
-
-
-
-
-
-
-/*--Footer components--*/
-
-.footermain {
+.latestprojects {
+margin-top: 150px;
+text-align: center;
 color: #ffffff;
-text-align: center; 
-margin-top: 600px;
-position: relative;
+}
+
+.skillmeter {
+margin-top: 120px;
+text-align: center;
+color: #ffffff;
+}
+
+.span {
+width:1200px;
 }
 
 
