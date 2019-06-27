@@ -120,6 +120,21 @@ text-align: center;
 color: #ffffff;
 }
 
+.Aboutmee {
+background-image:url("../Images/20190420_163043.jpg"); 
+margin-top: 100px;
+border-width: 2px;
+border-color: #008040;
+text-align: left;
+color: #ffffff;
+}
+
+.ContactMe {
+margin-top: 100px;
+text-align: left;
+color: #ffffff;
+}
+
 .skillmeter {
 margin-top: 120px;
 text-align: center;
