@@ -31,6 +31,12 @@ Extra large devices (large desktops, 1200px and up)
 
 /*--generic components--*/
 
+
+#aboutcontactnav {
+
+  
+}
+
 .jumbotron {
 position: relative;
 z-index:-101;
@@ -64,6 +70,7 @@ body {
 background-color: #3755BE; 
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size: 20px;
+color: #000000;
 
 }
 
@@ -121,7 +128,7 @@ color: #ffffff;
 }
 
 .Aboutmee {
-background-image:url("../Images/20190420_163043.jpg"); 
+background-image:url("../Images/Background_v1.jpg"); 
 margin-top: 100px;
 border-width: 2px;
 border-color: #008040;
