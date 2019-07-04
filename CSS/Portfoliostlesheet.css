@@ -34,8 +34,27 @@ Extra large devices (large desktops, 1200px and up)
 
 #aboutcontactnav {
 
-  
 }
+
+.card-img {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    
+}
+
+
+
+
+
+
+
 
 .jumbotron {
 position: relative;
