@@ -3,9 +3,10 @@
  Extra sm devices  portrait phones, less than 576pX
  No media query for `xs` since this is the default in Bootstrap
 
-sm devices (landscape phones, 576px and up)
+sm devices (landscape phones, 641px and up)
 
-@media (min-width: 576px) {
+@media (min-width: 641px) {
+  
 }
 
 Medium devices (tablets, 768px and up)
@@ -24,6 +25,31 @@ Extra large devices (large desktops, 1200px and up)
 }
 
 /*--generic components--*/
+
+
+/*--header components--*/
+
+.logo {
+max-width: 150px;
+height: 150px;
+}
+
+
+main {
+max-width:1200px;  
+margin: auto;
+}
+
+nav {
+max-width:1200px;
+margin: auto;
+
+}
+
+.navbar-toggler{
+color: #3755BE;
+
+}
 
 
 .jumbotron {
@@ -46,7 +72,7 @@ background-size: cover;
   height: auto;
   width: auto;
   min-height: 100%;
-  min-width: 100%;
+  min-width: 225%;
   left: 50%;
   top: 30%;
   -webkit-transform: translate3d(-50%, -50%, 0);
@@ -61,6 +87,21 @@ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size: 20px;
 color: #000000;
 
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.span {
+width:1200px;
 }
 
 a {
@@ -82,12 +123,7 @@ a:focus {
 color: #cc6540;
 }
 
-/*--header components--*/
 
-.logo {
-width: 150px;
-height: 150px;
-}
 
 /*--Main body components--*/
 
@@ -137,9 +173,7 @@ text-align: center;
 color: #ffffff;
 }
 
-.span {
-width:1200px;
-}
+
 
 
 /*--About page components--*/
