@@ -46,4 +46,4 @@ $(document).ready(() => {
     $('.navbar-toggler .fas').click(() => {
         menuToggle();
     });
-});
+}); 
