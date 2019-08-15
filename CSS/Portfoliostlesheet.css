@@ -2,32 +2,84 @@
 
  Extra sm devices  portrait phones, less than 576pX
  No media query for `xs` since this is the default in Bootstrap
-
-sm devices (landscape phones, 641px and up)
-
-@media (min-width: 641px) {
-  
+/* Reference Notes below */
+sm devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
 }
 
 Medium devices (tablets, 768px and up)
-
 @media (min-width: 768px) { 
 }
 
 Large devices (desktops, 992px and up)
-
 @media (min-width: 992px) { 
 }
 
 Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) 
 
-@media (min-width: 1200px) { 
+/*--Navigation components--*/
+
+
+a:visited {
+  color: #000000;
 }
 
-/*--generic components--*/
+a:active {
+  color: #9c8880;
+}
 
 
-/*--header components--*/
+a:hover,
+a:focus {
+  color: #3755BE;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+.navbar-brand {
+  max-width: 30px;
+  padding-top: 2px;
+}
+
+
+.navbar {
+padding: .8rem;
+}
+
+.navbar-nav li {
+padding-right: 10px;
+}
+
+.nav-link {
+font-size:1.1em !important;
+
+}
+
+.navbar-toggler {
+  color: #3755BE;
+  margin-left: 300px;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.span {
+  width: 1200px;
+}
 
 .logo {
 max-width: 150px;
@@ -40,16 +92,7 @@ max-width:1200px;
 margin: auto;
 }
 
-nav {
-max-width:1200px;
-margin: auto;
 
-}
-
-.navbar-toggler{
-color: #3755BE;
-
-}
 
 
 .jumbotron {
@@ -89,39 +132,8 @@ color: #000000;
 
 }
 
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-}
-
-.span {
-width:1200px;
-}
-
-a {
-color: #000000;
-text-decoration: none;
-}
-
-a:visited{
-color: #000000;
-}
-
-a:active{
-color: #9c8880;
-}
 
 
-a:hover,
-a:focus {
-color: #cc6540;
-}
 
 
 
@@ -176,50 +188,27 @@ color: #ffffff;
 
 
 
-/*--About page components--*/
-
-.About_Top {
-text-align: center;
-color: #ffffff;
-margin-top: 40px;
-}
-
-.About_pic {
-margin-left: 200px;
-margin-right: 20px;
-margin-top: 5px;	
-}
 
 
 
 
-.About_Body_Story {
-float: left;
-text-align: left;
-width: 800px;
-margin-top: 15px;
-margin-left: 600px;
-font-size: 100%;
-}
-
-.About_Body_Skills {
-float: right;
-margin-top: 10px;
-margin-right: 600px;
-font-size: 100%;
-}
-
-/*--Contact page components--*/
-
-.Body_Contact {
-color: #ffffff;
-}
 
 
 
+/* Notes for screen sizes 
+Extra small (xs) devices (portrait phones, less than
+576px)
+No Media Query since this is the default size in Bootstrap
 
-.navbar-brand {
-max-width: 30px;
-padding-top: 2px;
-}
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px){....}
 
+Medium (md) devices (Tablets, 768px and up)
+@media (min-width: 768px) {....}
+
+Large (lg) devices (Desktops, 992px and up)
+@media (min-width: 992px) {....}
+
+Large (xl) devices (Large Desktops, 1200px and up)
+@media (min-width: 1200px) {....}
+*/

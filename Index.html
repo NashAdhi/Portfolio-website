@@ -3,6 +3,7 @@
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
 			<script src="./JS/jquery-3.4.1.min.js"></script>
 			<script src="./JS/script.js"></script>
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -16,35 +17,35 @@
 			<title>Portfolio:Nash</title>
 		</head>
 		<body>
+			<!--Navigation Section-->
 			<header>
-				<nav class="navbar navbar-expand-sm bg-transparent">
-					<div class="container">
+				<nav class="navbar fixed-top navbar-expand-sm bg-light">
+					<div class="container-fluid">
 						<a class="navbar-brand" href="Index.html">
 						<img src="../Portfolio-website/Images/NashLogo.png" alt="My logo"></a>
 						
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-						<i class="fas fa-bars"></i>
+						<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item active">
-								<a class="nav-link active text-white" href="Index.html">Home<span class="sr-only">
-								(current)</span></a>
+								<a class="nav-link active" href="Index.html">Home</a>
 								</li>
 								<li class="nav-item">
-								<a class="nav-link text-white" href="#Aboutmescroll">About</a>
+								<a class="nav-link text-black" href="#Aboutmescroll">About</a>
 								</li>
 								<li class="nav-item">
-								<a class="nav-link text-white" href="#Contactmescroll">Contact</a>
+								<a class="nav-link text-black" href="#Contactmescroll">Contact</a>
 								</li>
 							</ul>
+							
 						</div>
 					</div>
 				</nav>
 		</header>
-			
+			<!--Body section-->
 				<main>
 					<div class="jumbotron"> 
 						
@@ -54,49 +55,61 @@
 								</video>
 								<div class="container">
 									<div class="row">
-											<h1 class="jumbotext mt-5">I am Nash Adhikarla</h1>
+										<h1 class="jumbotext mt-5">I am Nash Adhikarla</h1>
 											<p>UX designer & Front-end Developer with combined 12+ years experience in start-up, Banking & Finance with keen focus on solving user centric
 											issues.</p><br>
-											<a href="#aboutcontactnav"></a>
-											<button class="btn btn-lg btn-info">About Me</button>
-											
-											</div>
-										</div>
-									</div>			
+											<a href="#Aboutmescroll">
+											<button type="button" class="btn-lg btn-info">About Me</button></a>
+								</div>
+							</div>
+					</div>			
 		<section>
 				<div class="latestprojects">
 					<h2>Latest Projects<br> &mdash;</h2>
 				</div>
-				<div class="container">
-					<div class="row">
-						<div class="card bg-transparent mt-2 mr-2 border-info" style="width: 18rem;">
+				<div class="container-fluid padding">
+					<div class="row padding">
+						<div class="col-md-12 col-lg-6 mt-4 text-white">
+							<h2 class="card-title">UX-Mockup</h2>
+							<p class="card-text">Mockup & workflow of a possible Music app-Jive."test text - Basel for the past 1+ years. Most recently I was an entrepreneur into sustainable fashion promoting my private lable
+							into clothing & accessories, prior to which I worked for global conglomerates in Banking-Operations, Finance & Reporting
+							roles".</p></div>
+							<div class="col-md-12 col-lg-6 mt-4">
 							<img src="../Portfolio-website/Images/Jive_Mockup_grab.png" class="card-img-top" alt="Mobile Mockup">
-							<div class="card-body">
-								<h5 class="card-title">UX-Mockup</h5>
-								<p class="card-text">Mockup & workflow of a possible Music app-Jive.</p>
-								<a href="https://www.behance.net/gallery/76620845/W2T1-Music-app" class="btn btn-info">Go to Project</a>
-							</div>
+							<a href="https://www.behance.net/gallery/76620845/W2T1-Music-app" class="btn btn-info">Go to Project</a>
 						</div>
-						<div class="card bg-transparent mt-2 mr-2 border-info" style="width: 18rem;">
-							<img src="../Portfolio-website/Images/pebblesinwater.jpg" class="card-img-top" alt="Web GIF">
-							<div class="card-body">
-								<h5 class="card-title">UI-GIF</h5>
-								<p class="card-text">Fun visual depiction of my journey to Design</p>
-								<a href="#" class="btn btn-info">Go to Project</a>
-							</div>
+					</div>
+
+					<div class="row padding">
+						<div class="col-md-12 col-lg-6 mt-4 text-white">
+							<h2 class="card-title">UI-GIF</h2>
+							<p class="card-text">Fun GIF presentation as part of the Adone challenges."test text - Basel for the past 1+ years.
+								Most recently I was an entrepreneur into sustainable fashion promoting my private lable
+								into clothing & accessories, prior to which I worked for global conglomerates in Banking-Operations, Finance
+								& Reporting
+								roles".</p>
 						</div>
-						<div class="card bg-transparent mt-2 border-info" style="width: 18rem;">
-							<img src="../Portfolio-website/Images/Payment_I-watch_grab.png" class="card-img-top" alt="I-watch Mockup">
-							<div class="card-body ">
-								<h5 class="card-title">UX-Microinteractions</h5>
-								<p class="card-text">Payment work flow within an I-watch.</p>
-								<a href="#" class="btn btn-info">Go to Project</a>
-							</div>
+						<div class="col-md-12 col-lg-6 mt-4">
+							<img src="../Portfolio-website/Images/2019-08-15_14-56-13.jpg" class="card-img-top" alt="Mobile Mockup">
+							<a href="https://www.behance.net/gallery/77597999/The-Great-Esacape-GIF" class="btn btn-info">Go to Project</a>
 						</div>
-					</div>	
-				</div>
-			</section>	
-			<section>
+					</div>
+					<div class="row padding">
+						<div class="col-md-12 col-lg-6 mt-4 text-white">
+							<h2 class="card-title">UX-Microinteractions</h2>
+							<p class="card-text">Microinteraction projects as part of the Adobe Challenges."test text - Basel for the past 1+ years.
+								Most recently I was an entrepreneur into sustainable fashion promoting my private lable
+								into clothing & accessories, prior to which I worked for global conglomerates in Banking-Operations, Finance
+								& Reporting
+								roles".</p>
+						</div>
+						<div class="col-md-12 col-lg-6 mt-4">
+							<img src="../Portfolio-website/Images/2019-08-15_14-59-43.jpg" class="card-img-top" alt="Mobile Mockup">
+							<a href="https://www.behance.net/gallery/71950003/Financial-Assistant-Mockup" class="btn btn-info">Go to Project</a>
+						</div>
+					</div>
+	</section>	
+	<section>
 						<div class="container">
 							<div id="Aboutmescroll" class="Aboutmee text-center">	
 								<h2>About Me<br> &mdash;</h2>
@@ -193,7 +206,7 @@
 						<h2>Tools Proficiency<br> &mdash;</h2>
 					</div>
 					<div class="container">
-							<div class="col-sm-6">
+							<div class="col-sm-4">
 							<h5>Technical Skills (scale 0 to 5)</h5>
 							<h6>Wireframing, Prototyping tools - Sketch,XD.</h6>
 								<div class="progress">
@@ -214,7 +227,7 @@
 								</div>
 								
 							</div>
-							<div class="col-sm-4 text-left ml-5">
+							<div class="col-sm-6 text-left ml-5">
 								<h5>Strengths</h5>
 								<h6>Communication - Verbal, Written.</h6>
 								<div class="progress">
